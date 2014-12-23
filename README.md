@@ -49,7 +49,7 @@ Skype | icon-skype
 
 **'static'** turns off all custom behaviour when the user tries to interact with the buttons, for example hovering.
 
-If you wish to change the size change the *font-size* property of the label and mark it with an *!important* statement.
+If you wish to change the size of the buttons, add the *font-size* property to the a-tag and mark it with an *!important* statement.
 
 Acknowledgements
 ==============
