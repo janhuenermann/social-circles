@@ -1,4 +1,4 @@
-social-circles - Social media buttons
+Social circles
 ==============
 
 Well designed social media buttons that are simple to use, just work and look good.
