@@ -47,7 +47,7 @@ Skype | icon-skype
 # Additional options
 **'no-animation'** turns off all animations.
 
-**'static'** turns off all custom behaviour when the user tries to interact them, for example hovering.
+**'static'** turns off all custom behaviour when the user tries to interact with the buttons, for example hovering.
 
 Acknowledgements
 ==============
