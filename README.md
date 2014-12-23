@@ -1,7 +1,7 @@
-Social buttons
+clicksocial - Social media buttons
 ==============
 
-Well designed social media buttons.
+Well designed social media buttons that are simple to use, just work and look good.
 
 How to use
 ==============
