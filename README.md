@@ -10,8 +10,8 @@ Just copy the the /fonts and /css directories in your root directory of your web
 <link rel="stylesheet" href="../css/social-circles.min.css">
 ```
 
-Then if you want an social button add the class 'social-button' to your a-tag and choose from one social network of the table at the bottom of the page and add their class for the icon. Next add an button type (that you can choose also at the bottom of the page) to the class and you're done. Congratulations, you've added your first social media button!
-For everybody who could not follow this text here are a few examples:
+Then if you want an social button add the class 'social-button' to your a-tag and choose from one social network of the table at the bottom of the page the class and it to your tag's class as well. Next add an button type (that you can also choose at the bottom of the page) to the class and you're done. Congratulations, you've added your first social media button!
+For everybody who could not follow this text, here are a few examples:
 ```
 <a class="icon-twitter social-button color" href="http://twitter.com/username"></a>
 ```
