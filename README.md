@@ -3,10 +3,6 @@ Social buttons
 
 Well designed social media buttons.
 
-Acknowledgements
-==============
-Original icons are created by Daniel Oppel and you find them on dribble  (https://dribbble.com/shots/1509889-Free-Social-Media-Icons). I merged them into a font file so it is much easier to access them in the web.
-
 How to use
 ==============
 Just copy the the /fonts and /css directories in your root directory of your web application. Then link the css file /css/social-buttons.min.css in your main html file with the following syntax
@@ -25,3 +21,32 @@ For everybody who could not follow this text here are a few examples:
 ```
 <a class="icon-rss social-button color" href="http://yoursite.com/rss"></a>
 ```
+
+# Icons
+
+Social network | Class
+------------- | -------------
+Facebook | icon-facebook
+Twitter | icon-twitter
+Instagram | icon-instagram
+Behance | icon-behance
+Vimeo | icon-vimeo
+Youtube | icon-youtube
+Google+ | icon-googleplus
+RSS | icon-rss
+Pinterest | icon-pinterest
+Tumblr | icon-tumblr
+LinkedIn | icon-linkedin
+Skype | icon-skype
+
+# Button types
+**'color'** buttons are transparent but turn into the color of their brand when you hover over them with your mouse.
+**'grey'** buttons are just grey. When you hover over them they jump up.
+
+# Additional options
+**'no-animation'** turns off all animations.
+**'static'** turns off all custom behaviour when the user tries to interact them, for example hovering.
+
+Acknowledgements
+==============
+Original icons are created by Daniel Oppel and you find them on dribble  (https://dribbble.com/shots/1509889-Free-Social-Media-Icons). I merged them into a font file so it is much easier to access them in the web.
