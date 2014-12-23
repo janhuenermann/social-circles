@@ -87,6 +87,7 @@ a.social-button{
 	font-size:32px;
 	text-decoration: none;
 	display:inline-block;
+	width: 1em;height:1em;
 }
 
 a.social-button.color {
