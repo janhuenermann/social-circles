@@ -41,10 +41,12 @@ Skype | icon-skype
 
 # Button types
 **'color'** buttons are transparent but turn into the color of their brand when you hover over them with your mouse.
+
 **'grey'** buttons are just grey. When you hover over them they jump up.
 
 # Additional options
 **'no-animation'** turns off all animations.
+
 **'static'** turns off all custom behaviour when the user tries to interact them, for example hovering.
 
 Acknowledgements
