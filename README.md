@@ -1,4 +1,4 @@
-clicksocial - Social media buttons
+social-circles - Social media buttons
 ==============
 
 Well designed social media buttons that are simple to use, just work and look good.
@@ -7,7 +7,7 @@ How to use
 ==============
 Just copy the the /fonts and /css directories in your root directory of your web application. Then link the css file /css/social-buttons.min.css in your main html file with the following syntax
 ```
-<link rel="stylesheet" href="../css/clicksocial.min.css">
+<link rel="stylesheet" href="../css/social-circles.min.css">
 ```
 
 Then if you want an social button add the class 'social-button' to your a-tag and choose from one social network of the table at the bottom of the page and add their class for the icon. Next add an button type (that you can choose also at the bottom of the page) to the class and you're done. Congratulations, you've added your first social media button!
