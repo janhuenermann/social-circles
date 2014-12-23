@@ -24,62 +24,54 @@
 
 .icon-facebook:before {
     content: "\e600";
-    color: #3b5998;
 }
 
 .icon-twitter:before {
     content: "\e601";
-    color: #4dc8f1;
 }
 
 .icon-instagram:before {
     content: "\e602";
-    color: #3e739d;
 }
 
 .icon-behance:before {
     content: "\e603";
-    color: #0683f1;
 }
 
 .icon-vimeo:before {
     content: "\e604";
-    color: #86c9ef;
 }
 
 .icon-youtube:before {
     content: "\e605";
-    color: #ce332d;
 }
 
 .icon-googleplus:before {
     content: "\e606";
-    color: #d13f2d;
 }
 
 .icon-rss:before {
     content: "\e607";
-    color: #f88b02;
 }
 
 .icon-pinterest:before {
     content: "\e608";
-    color: #cb2028;
 }
 
 .icon-tumblr:before {
     content: "\e609";
-    color: #274152;
 }
 
 .icon-linkedin:before {
     content: "\e60a";
-    color: #0275b5;
 }
 
 .icon-skype:before {
     content: "\e60b";
-    color: #03aceb;
+}
+
+.icon-github:before {
+    content: "\e60c";
 }
 
 /* socialbuttons */
@@ -99,6 +91,14 @@ a.social-button.color {
 
 a.social-button.color:hover {
     border-color: transparent;
+}
+
+a.social-button.color.white {
+    border-width: 2px;
+}
+
+a.social-button.color.white:hover {
+    border-color: #FFF;
 }
 
 a.social-button.color.icon-facebook:hover {
@@ -147,6 +147,10 @@ a.social-button.color.icon-linkedin:hover {
 
 a.social-button.color.icon-skype:hover {
     background-color: #03aceb;
+}
+
+a.social-button.color.icon-github:hover {
+    background-color: #4183C4;
 }
 
 a.social-button.color:before {
