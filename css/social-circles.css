@@ -192,17 +192,26 @@ a.social-button.grey.static:hover {
 }
 
 a.social-button {
-    -o-transition: all .3s cubic-bezier(0.25,.46,.45,.94) 0ms;
-    -ms-transition: all .3s cubic-bezier(0.25,.46,.45,.94) 0ms;
-    -moz-transition: all .3s cubic-bezier(0.25,.46,.45,.94) 0ms;
-    -webkit-transition: all .3s cubic-bezier(0.25,.46,.45,.94) 0ms;
-    transition: all .3s cubic-bezier(0.25,.46,.45,.94) 0ms;
-}
+	transition-timing-function: cubic-bezier(0.25,.46,.45,.94);
+    transition-property: background-color, transform;
+    transition-duration: .3s;
 
+    -webkit-transition-timing-function: cubic-bezier(0.25,.46,.45,.94);
+    -webkit-transition-property: background-color, transform;
+    -webkit-transition-duration: .3s;
+
+    -o-transition-timing-function: cubic-bezier(0.25,.46,.45,.94);
+    -o-transition-property: background-color, transform;
+    -o-transition-duration: .3s;
+
+    -moz-transition-timing-function: cubic-bezier(0.25,.46,.45,.94);
+    -moz-transition-property: background-color, transform;
+    -moz-transition-duration: .3s;
+}
 a.social-button.no-animation {
-	-o-transition: none !important;
-    -ms-transition: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    transition:  none !important;
+	-o-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property:  none !important;
 }
