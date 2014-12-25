@@ -1,7 +1,7 @@
 Social circles
 ==============
 
-![Preview](../images/preview.png?raw=true)
+![Preview](images/preview.png?raw=true)
 
 Well designed social media buttons that are simple to use, just work and look good. Give them a try at http://janhuenermann.github.io/social-circles/
 
