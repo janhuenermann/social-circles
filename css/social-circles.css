@@ -169,12 +169,12 @@ a.social-button.color:hover:before {
     color: #FFF;
 }
 
-a.social-button.color.static:hover {
+a.social-button.color.static:hover, .static a.social-button.color:hover {
 	border: 1px solid #4b4b4b !important;
 	background-color: transparent;
 }
 
-a.social-button.color.static:hover:before {
+a.social-button.color.static:hover:before, .static a.social-button.color:hover:before {
 	color: #4b4b4b;
 }
 
@@ -197,7 +197,7 @@ a.social-button.grey:before {
     color: #FFF;
 }
 
-a.social-button.grey.static:hover {
+a.social-button.grey.static:hover, .static a.social-button.grey:hover {
 	 transform: none;
      -webkit-transform: none;
      -o-transform: none;
@@ -221,7 +221,8 @@ a.social-button {
     -moz-transition-property: background-color, transform;
     -moz-transition-duration: .3s;
 }
-a.social-button.no-animation {
+
+a.social-button.no-animation, .no-animation a.social-button {
 	-o-transition-property: none !important;
     -ms-transition-property: none !important;
     -moz-transition-property: none !important;
@@ -232,7 +233,7 @@ a.social-button.no-animation {
 a.social-button.borderless {
     color:#4b4b4b;
 }
-a.social-button.borderless.static:hover {
+a.social-button.borderless.static:hover, .static a.social-button.borderless:hover {
     color: #4b4b4b;
 }
 a.social-button.borderless.icon-facebook:hover {

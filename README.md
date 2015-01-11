@@ -12,7 +12,7 @@ Features
 
 - Well designed brand icons and logos each with their specific colors
 - Vector graphics loaded as font for fast loading and easy scaling
-- Just about 7kb size
+- Just about 5kb size
 - Animations and custom designs specified per class
 - No more than one line per button
 - 13 different networks with over 75 button variations 
