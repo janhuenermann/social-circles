@@ -29,7 +29,7 @@ For everybody who could not follow this text, here are a few examples:
 # Icons
 
 Social network | Class | Brand color
-------------- | -------------
+------------- | ------------- | -------------
 Facebook | icon-facebook | #3b5998
 Twitter | icon-twitter | #4dc8f1
 Instagram | icon-instagram | #3e739d
