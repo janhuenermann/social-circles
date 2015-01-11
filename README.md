@@ -21,7 +21,7 @@ For everybody who could not follow this text, here are a few examples:
 <a class="icon-instagram social-button grey" href="http://instagram.com/username"></a>
 ```
 ```
-<a class="icon-rss social-button color" href="http://yoursite.com/rss"></a>
+<a class="icon-rss social-button borderless static" href="http://yoursite.com/rss"></a>
 ```
 
 # Icons
