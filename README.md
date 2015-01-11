@@ -10,7 +10,7 @@ For feature requests please create an issue.
 Features
 ==============
 
-- Well designed brand icons and logos
+- Well designed brand icons and logos each with their specific colors
 - Vector graphics loaded as font for fast loading and easy scaling
 - Just about 7kb size
 - Animations and custom designs specified per class
