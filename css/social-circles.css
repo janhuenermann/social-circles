@@ -227,6 +227,9 @@ a.social-button.borderless {
 a.social-button.borderless.static:hover {
     color: #4b4b4b;
 }
+a.social-button.borderless.icon-facebook:hover {
+    color:#3b5998;
+}
 a.social-button.borderless.icon-twitter:hover {
     color:#4dc8f1;
 }
