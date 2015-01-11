@@ -7,6 +7,17 @@ Well designed social media buttons that are simple to use, just work and look go
 
 For feature requests please create an issue.
 
+Features
+==============
+
+- Well designed brand icons and logos
+- Vector graphics loaded as font for fast loading and easy scaling
+- Just about 7kb size
+- Animations and custom designs specified per class
+- No more than one line per button
+- 13 different networks with over 75 button variations 
+
+
 How to use
 ==============
 Just copy the the /fonts and /css directories in your root directory of your web application. Then link the css file /css/social-buttons.min.css in your main html file with the following syntax
