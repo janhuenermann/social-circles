@@ -28,20 +28,21 @@ For everybody who could not follow this text, here are a few examples:
 
 # Icons
 
-Social network | Class
+Social network | Class | Brand color
 ------------- | -------------
-Facebook | icon-facebook
-Twitter | icon-twitter
-Instagram | icon-instagram
-Behance | icon-behance
-Vimeo | icon-vimeo
-Youtube | icon-youtube
-Google+ | icon-googleplus
-RSS | icon-rss
-Pinterest | icon-pinterest
-Tumblr | icon-tumblr
-LinkedIn | icon-linkedin
-Skype | icon-skype
+Facebook | icon-facebook | #3b5998
+Twitter | icon-twitter | #4dc8f1
+Instagram | icon-instagram | #3e739d
+Behance | icon-behance | #0683f1
+Vimeo | icon-vimeo | #86c9ef
+Youtube | icon-youtube | #ce332d
+Google+ | icon-googleplus | #d13f2d
+RSS | icon-rss | #f88b02
+Pinterest | icon-pinterest | #cb2028
+Tumblr | icon-tumblr | #274152
+LinkedIn | icon-linkedin | #0275b5
+Skype | icon-skype | #03aceb
+Github | icon-github | #4183C4 
 
 # Button types
 **'color'** buttons are transparent but turn into the color of their brand when you hover over them with your mouse.
