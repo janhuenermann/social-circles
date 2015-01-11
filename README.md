@@ -54,6 +54,7 @@ Tumblr | icon-tumblr | #274152
 LinkedIn | icon-linkedin | #0275b5
 Skype | icon-skype | #03aceb
 Github | icon-github | #4183C4 
+Dribbble | icon-dribbble | #ea4c89
 
 # Button types
 **'color'** buttons are transparent but turn into the color of their brand when you hover over them with your mouse.

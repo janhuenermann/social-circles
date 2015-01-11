@@ -74,6 +74,10 @@
     content: "\e60c";
 }
 
+.icon-dribbble:before {
+    content: "\e60d";
+}
+
 /* socialbuttons */
 a.social-button{
 	font-size:32px;
@@ -151,6 +155,10 @@ a.social-button.color.icon-skype:hover {
 
 a.social-button.color.icon-github:hover {
     background-color: #4183C4;
+}
+
+a.social-button.color.icon-dribbble:hover {
+    background-color: #ea4c89;
 }
 
 a.social-button.color:before {
@@ -265,4 +273,7 @@ a.social-button.borderless.icon-skype:hover {
 }
 a.social-button.borderless.icon-github:hover {
     color:#4183C4;
+}
+a.social-button.borderless.icon-dribbble:hover {
+    color:#ea4c89;
 }
