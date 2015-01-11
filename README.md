@@ -46,12 +46,14 @@ Skype | icon-skype
 
 **'grey'** buttons are just grey. When you hover over them they jump up.
 
+**'borderless'** buttons are just plain icons that will get their brand color on hover.
+
 # Additional options
 **'no-animation'** turns off all animations.
 
 **'static'** turns off all custom behaviour when the user tries to interact with the buttons, for example hovering.
 
-If you wish to change the size of the buttons, add the *font-size* property to the a-tag and mark it with an *!important* statement.
+If you wish to alter size, change the font-size of the buttons you want to change size of.
 
 Acknowledgements
 ==============
