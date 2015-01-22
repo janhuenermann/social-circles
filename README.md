@@ -21,19 +21,19 @@ Features
 How to use
 ==============
 Just copy the the /fonts and /css directories in your root directory of your web application. Then link the css file /css/social-buttons.min.css in your main html file with the following syntax
-```
+```html
 <link rel="stylesheet" href="../css/social-circles.min.css">
 ```
 
 Then if you want an social button add the class 'social-button' to your a-tag and choose from one social network of the table at the bottom of the page the class and it to your tag's class as well. Next add an button type (that you can also choose at the bottom of the page) to the class and you're done. Congratulations, you've added your first social media button!
 For everybody who could not follow this text, here are a few examples:
-```
+```html
 <a class="icon-twitter social-button color" href="http://twitter.com/username"></a>
 ```
-```
+```html
 <a class="icon-instagram social-button grey" href="http://instagram.com/username"></a>
 ```
-```
+```html
 <a class="icon-rss social-button borderless static" href="http://yoursite.com/rss"></a>
 ```
 
