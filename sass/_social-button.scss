@@ -1,0 +1,170 @@
+$sb-font-folder: "../fonts"; // relative to the final css file
+
+@font-face {
+    font-family: 'socialfont';
+    src:url('#{$sb-font-folder}/socialfont.eot?mh1paq');
+    src:url('#{$sb-font-folder}/socialfont.eot?#iefixmh1paq') format('embedded-opentype'),
+        url('#{$sb-font-folder}/socialfont.woff?mh1paq') format('woff'),
+        url('#{$sb-font-folder}/socialfont.ttf?mh1paq') format('truetype'),
+        url('#{$sb-font-folder}/socialfont.svg?mh1paq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: socialfont;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+@mixin icon($character, $color) {
+    &:before {
+        content: $character;
+    }
+
+    &.color:hover {
+        background-color: $color;
+    }
+
+    &.borderless:hover {
+        color: $color;
+    }
+}
+
+.icon-facebook {
+    @include icon("\e600", #3b5998);
+}
+
+.icon-twitter {
+    @include icon("\e601", #4dc8f1);
+}
+
+.icon-instagram {
+    @include icon("\e602", #3e739d);
+}
+
+.icon-behance {
+    @include icon("\e603", #0683f1);
+}
+
+.icon-vimeo {
+   @include icon("\e604", #86c9ef);
+}
+
+.icon-youtube {
+    @include icon("\e605", #ce332d);
+}
+
+.icon-googleplus {
+    @include icon("\e606", #d13f2d);
+}
+
+.icon-rss {
+    @include icon("\e607", #f88b02);
+}
+
+.icon-pinterest {
+    @include icon("\e608", #cb2028);
+}
+
+.icon-tumblr {
+    @include icon("\e609", #274152);
+}
+
+.icon-linkedin {
+    @include icon("\e60a", #0275b5);
+}
+
+.icon-skype {
+    @include icon("\e60b", #03aceb);
+}
+
+.icon-github {
+    @include icon("\e60c", #4183C4);
+}
+
+.icon-dribbble {
+    @include icon("\e60d", #ea4c89);
+}
+
+a.social-button {
+    font-size: 32px;
+    text-decoration: none;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+
+    box-sizing: content-box;
+
+    transition-property: background-color, color, transform;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.25, .46, .45, .94);
+
+    &.no-animation {
+        transition-property: none !important;
+    }
+}
+
+a.social-button.color {
+    display: inline-block;
+    border: 1px solid #4b4b4b;
+    border-radius: 50%;
+    padding: .5em;
+
+    &:hover {
+        border-color: transparent;
+    }
+
+    &:before {
+        color: #4b4b4b;
+    }
+
+    &:hover:before {
+        color: #FFF;
+    }
+
+    &.static:hover {
+        border: 1px solid #4b4b4b!important;
+        background-color: transparent;
+
+        &:before {
+            color: #4b4b4b;
+        }
+    }
+
+    &.white {
+        border-width: 2px;
+
+        &:hover {
+            border-color: #FFF;
+        }
+    }
+}
+
+a.social-button.grey {
+    font-size: 32px;
+    display: inline-block;
+    background-color: #3D444D;
+    border-radius: 50%;
+    padding: .5em;
+
+    &:hover {
+        transform: translate(0px, -5px);
+    }
+
+    &:before {
+        color: #FFF;
+    }
+
+    &.static:hover {
+        transform: none;
+    }
+}
+
+a.social-button.borderless {
+    color: #4b4b4b;
+}
