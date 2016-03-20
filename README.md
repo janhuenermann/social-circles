@@ -21,12 +21,12 @@ ToDo: SASS support
 
 How to use
 ==============
-Just copy the the /fonts and /css directories in your root directory of your web application. Then link the css file /css/social-buttons.min.css in your main html file with the following syntax
+Just copy the /fonts and /css directories to your root directory of your web application. Then embed the css file /css/social-buttons.min.css in your main html file with the following code snippet
 ```html
 <link rel="stylesheet" href="../css/social-circles.min.css">
 ```
 
-Then if you want an social button add the class 'social-button' to your a-tag and choose from one social network of the table at the bottom of the page the class and it to your tag's class as well. Next add an button type (that you can also choose at the bottom of the page) to the class and you're done. Congratulations, you've added your first social media button!
+To create a button add the class 'social-button' to your anchors (a) and add the class of the social network you want the button to be, look at the table below. Now choose a button type, add it as a class and you're done. Congratulations, you've added your first social media button!
 For everybody who could not follow this text, here are a few examples:
 ```html
 <a class="icon-twitter social-button color" href="http://twitter.com/username"></a>
