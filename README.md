@@ -73,4 +73,4 @@ If you wish to alter size, change the font-size of the buttons you want to chang
 
 Acknowledgements
 ==============
-Original icons are created by Daniel Oppel and you find them on dribbble  (https://dribbble.com/shots/1509889-Free-Social-Media-Icons). I put them into a font file to make them accessible for web browsers.
+Original icons are created by Daniel Oppel and you find them on dribbble  (https://web.archive.org/web/20170711185308/https://dribbble.com/shots/1509889-Free-Social-Media-Icons). I put them into a font file to make them accessible for web browsers.
